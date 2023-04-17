@@ -15,27 +15,26 @@ function HomePage() {
           <h1 className="mb-5 text-5xl font-bold">Hello there!</h1>
           <p className="mb-5">
             Greetings from Justen Manni. I will be attempting all 6 questions
-            and my answers can be found in each of the questions respective
-            pages.
+            and my answers can be found in the respective pages.
           </p>
           {/* Question Buttons */}
           <div className="flex-row">
-            <button className="btn btn-primary">
+            <button className="btn btn-primary m-2">
               <Link to={`/QuestionOne`}>Question 1</Link>
             </button>
-            <button className="btn btn-primary">
+            <button className="btn btn-primary m-2">
               <Link to={`/QuestionTwo`}>Question 2</Link>
             </button>
-            <button className="btn btn-primary">
+            <button className="btn btn-primary m-2">
               <Link to={`/QuestionThree`}>Question 3</Link>
             </button>
-            <button className="btn btn-primary">
+            <button className="btn btn-primary m-2">
               <Link to={`/QuestionFour`}>Question 4</Link>
             </button>
-            <button className="btn btn-primary">
+            <button className="btn btn-primary m-2">
               <Link to={`/QuestionFive`}>Question 5</Link>
             </button>
-            <button className="btn btn-primary">
+            <button className="btn btn-primary m-2">
               <Link to={`/QuestionSix`}>Question 6</Link>
             </button>
           </div>
