@@ -7,12 +7,14 @@ import QuestionThree from "./pages/QuestionThree";
 import QuestionFour from "./pages/QuestionFour";
 import QuestionFive from "./pages/QuestionFive";
 import QuestionSix from "./pages/QuestionSix";
+import Navigation from "./components/Navigation";
 import Footer from "./components/Footer";
 import "./main.css";
 
 function App() {
   return (
     <div className="App">
+      <Navigation />
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<HomePage />} />

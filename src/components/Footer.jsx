@@ -1,9 +1,9 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faCaretUp, faGraduationCap } from "@fortawesome/free-solid-svg-icons";
+// import { faCaretUp, faGraduationCap } from "@fortawesome/free-solid-svg-icons";
 import {
   faGithub,
-  faCodepen,
+  // faCodepen,
   faLinkedin,
 } from "@fortawesome/free-brands-svg-icons";
 
@@ -21,19 +21,19 @@ function Footer() {
                 <FontAwesomeIcon icon={faGithub} />
               </a>
               {""}
-              <a
+              {/* <a
                 className="px-2 hover:text-white"
                 href="https://vercel.com/justenmx"
               >
                 <FontAwesomeIcon icon={faCaretUp} />
-              </a>
+              </a> */}
               {""}
-              <a
+              {/* <a
                 className="px-2 hover:text-white"
                 href="https://codepen.io/JustenM"
               >
                 <FontAwesomeIcon icon={faCodepen} />
-              </a>
+              </a> */}
               {""}
               <a
                 className="px-2 hover:text-white"
@@ -42,15 +42,15 @@ function Footer() {
                 <FontAwesomeIcon icon={faLinkedin} />
               </a>
               {""}
-              <a
+              {/* <a
                 className="px-2 hover:text-white"
                 href="https://generalassemb.ly"
               >
                 <FontAwesomeIcon icon={faGraduationCap} />
-              </a>
+              </a> */}
             </div>
             <p className="mt-4 text-sm text-center text-gray-400 lg:text-right lg:mt-0">
-              Copyright &copy; 2022. All rights reserved. |
+              MIT License Copyright &copy; 2023 |
               <a
                 className="hover:text-white"
                 href="https://github.com/JustenMX"
