@@ -6,6 +6,7 @@ import QuestionTwo from "./pages/QuestionTwo";
 import QuestionThree from "./pages/QuestionThree";
 import QuestionFour from "./pages/QuestionFour";
 import QuestionFive from "./pages/QuestionFive";
+import QuestionSix from "./pages/QuestionSix";
 import Footer from "./components/Footer";
 import "./main.css";
 
@@ -20,6 +21,7 @@ function App() {
           <Route path="/QuestionThree" element={<QuestionThree />} />
           <Route path="/QuestionFour" element={<QuestionFour />} />
           <Route path="/QuestionFive" element={<QuestionFive />} />
+          <Route path="/QuestionSix" element={<QuestionSix />} />
         </Routes>
       </BrowserRouter>
       <Footer />
