@@ -7,6 +7,7 @@ import QuestionThree from "./pages/QuestionThree";
 import QuestionFour from "./pages/QuestionFour";
 import QuestionFive from "./pages/QuestionFive";
 import QuestionSix from "./pages/QuestionSix";
+import ErrorPage from "./pages/ErrorPage";
 import Navigation from "./components/Navigation";
 import Footer from "./components/Footer";
 import "./main.css";
@@ -24,6 +25,7 @@ function App() {
           <Route path="/QuestionFour" element={<QuestionFour />} />
           <Route path="/QuestionFive" element={<QuestionFive />} />
           <Route path="/QuestionSix" element={<QuestionSix />} />
+          <Route path="*" element={<ErrorPage />} />
         </Routes>
       </BrowserRouter>
       <Footer />
