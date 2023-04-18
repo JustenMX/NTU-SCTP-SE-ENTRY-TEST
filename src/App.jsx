@@ -14,8 +14,8 @@ import "./main.css";
 function App() {
   return (
     <div className="App">
-      <Navigation />
       <BrowserRouter>
+        <Navigation />
         <Routes>
           <Route path="/" element={<HomePage />} />
           <Route path="/QuestionOne" element={<QuestionOne />} />

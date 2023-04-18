@@ -1,5 +1,5 @@
 import React from "react";
-// import { Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 function Navigation() {
   return (
@@ -27,22 +27,22 @@ function Navigation() {
             className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52 text-emerald-800 dark:text-teal-100"
           >
             <li>
-              <a href="/">Homepage</a>
+              <Link to="/">Homepage</Link>
             </li>
             <li>
-              <a href="/QuestionOne">Question 1</a>
+              <Link to="/QuestionOne">Question 1</Link>
             </li>
             <li>
-              <a href="/QuestionTwo">Question 2</a>
+              <Link to="/QuestionTwo">Question 2</Link>
             </li>
             <li>
-              <a href="/QuestionThree">Question 3</a>
+              <Link to="/QuestionThree">Question 3</Link>
             </li>
             <li>
-              <a href="/QuestionFour">Question 4</a>
+              <Link to="/QuestionFour">Question 4</Link>
             </li>
             <li>
-              <a href="/QuestionFive">Question 5</a>
+              <Link to="/QuestionFive">Question 5</Link>
             </li>
           </ul>
         </div>
