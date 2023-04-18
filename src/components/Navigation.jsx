@@ -24,7 +24,7 @@ function Navigation() {
           </label>
           <ul
             tabIndex={0}
-            className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52 text-emerald-800"
+            className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52 text-emerald-800 dark:text-teal-100"
           >
             <li>
               <a href="/">Homepage</a>
