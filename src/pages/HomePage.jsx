@@ -34,9 +34,6 @@ function HomePage() {
             <button className="btn btn-primary m-2">
               <Link to={`/QuestionFive`}>Question 5</Link>
             </button>
-            <button className="btn btn-primary m-2">
-              <Link to={`/QuestionSix`}>Question 6</Link>
-            </button>
           </div>
           {/* Question Buttons */}
         </div>

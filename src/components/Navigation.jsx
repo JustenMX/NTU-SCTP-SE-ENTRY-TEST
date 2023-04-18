@@ -44,9 +44,6 @@ function Navigation() {
             <li>
               <a href="/QuestionFive">Question 5</a>
             </li>
-            <li>
-              <a href="/QuestionSix">Question 6</a>
-            </li>
           </ul>
         </div>
       </div>
