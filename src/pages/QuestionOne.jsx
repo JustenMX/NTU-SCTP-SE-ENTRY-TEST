@@ -3,7 +3,7 @@ import SyntaxHighlighter from "react-syntax-highlighter";
 import { docco } from "react-syntax-highlighter/dist/esm/styles/hljs";
 
 function QuestionOne() {
-  // Question One Answer
+  // Solution to Question One
   const ansQuestionOne = `
   // Task 1
     function swap(x, y) {
