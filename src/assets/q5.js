@@ -1,4 +1,3 @@
-
 /*
     Task 1:
     - Import the file `external.js`.
@@ -7,6 +6,7 @@
 */
 
 // Task 1: Add code here
+import { print } from "./external.js";
 
 // Do not change the code below
 print();

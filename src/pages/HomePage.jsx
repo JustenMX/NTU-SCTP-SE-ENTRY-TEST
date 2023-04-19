@@ -12,10 +12,15 @@ function HomePage() {
       <div className="hero-overlay bg-opacity-60"></div>
       <div className="hero-content text-center text-neutral-content">
         <div className="max-w-md">
-          <h1 className="mb-5 text-5xl font-bold">Hello there!</h1>
-          <p className="mb-5">
-            Greetings from Justen Manni. I will be attempting all 6 questions
-            and my answers can be found in the respective pages.
+          <h1 className="mb-5 text-5xl font-bold dark:text-slate-100">
+            Hello there!
+          </h1>
+          <p className="mb-5 dark:text-slate-100">
+            Hello and welcome! My name is Justen Manni and I am excited to
+            attempt all five questions. You can find my answers to each question
+            on their respective pages.
+            <br />
+            Thank you for taking the time to review my work.
           </p>
           {/* Question Buttons */}
           <div className="flex-row">
