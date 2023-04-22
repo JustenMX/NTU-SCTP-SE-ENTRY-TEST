@@ -48,9 +48,10 @@ function Navigation() {
         </div>
       </div>
       <div className="navbar-center">
-        <a className="btn btn-ghost normal-case text-xl" href="/">
+        <img className="max-h-20" src="/JustenLogoDark.png" href="/" />
+        {/* <a className="btn btn-ghost normal-case text-xl" href="/">
           Justen Manni
-        </a>
+        </a> */}
       </div>
       <div className="navbar-end"></div>
     </div>
