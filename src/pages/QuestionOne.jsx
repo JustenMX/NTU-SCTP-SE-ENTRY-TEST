@@ -1,7 +1,8 @@
 import React from "react";
-import SyntaxHighlighter from "react-syntax-highlighter";
-import { docco } from "react-syntax-highlighter/dist/esm/styles/hljs";
+// import SyntaxHighlighter from "react-syntax-highlighter";
+// import { docco } from "react-syntax-highlighter/dist/esm/styles/hljs";
 import Pagination from "../components/Pagination";
+import CodeEditor from "../components/CodeEditor";
 
 function QuestionOne() {
   // Solution to Question One
@@ -47,13 +48,14 @@ function QuestionOne() {
         </div>
         <div className="mb-10">
           <h3 className="font-semibold text-lg my-2">Solution</h3>
-          <SyntaxHighlighter
+          <CodeEditor code={ansQuestionOne} />
+          {/* <SyntaxHighlighter
             className="text-md"
             language="javascript"
             style={docco}
           >
             {ansQuestionOne}
-          </SyntaxHighlighter>
+          </SyntaxHighlighter> */}
         </div>
         <Pagination />
       </div>
